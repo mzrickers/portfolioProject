@@ -1,37 +1,49 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-    font-family: "Trade Winds", cursive;
-}
+  font-family: "Trade Winds", cursive; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #CEC8FF;
-}
+  color: #CEC8FF; }
 
-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
+/* this might be navbar-dark */
 .navbar {
-    background-color: #901CAD;
-}
+  background-color: #901CAD; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637DD; }
+
+#carouselButton {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
